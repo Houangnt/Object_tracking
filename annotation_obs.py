@@ -8,12 +8,12 @@ import cv2
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-input_dir = "C:/Users/GHTK/Downloads/5/imgs"
+input_dir = "C:/Users/Downloads/5/imgs"
 checkname = ''
 
 
 class Watcher:
-    DIRECTORY_TO_WATCH = "C:/Users/GHTK/Downloads/5/imgs"
+    DIRECTORY_TO_WATCH = "C:/Users/Downloads/5/imgs"
 
     def __init__(self):
         self.observer = Observer()
